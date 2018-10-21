@@ -18,3 +18,7 @@ student_id（folder）
 # Bonus Grading Policy
 
 Select your favorite documents from 'bonus' folder and copy them to your 'student_id/extra' folder. Edit the documents and save them to new filenames containing your student_id. Each *well edited* document will give you an extra 5 ~ 10 points in final grade. 
+
+# Technical Terms
+
+Translations about technical terms can consult https://developers.google.cn/machine-learning/glossary/ 
