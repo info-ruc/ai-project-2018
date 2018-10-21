@@ -12,9 +12,9 @@
 
 - git clone https://github.com/$yourname$/ai-project-2018.git
 
-- make folders structures following report naming convention
+- make folders structures following Report Naming Convention in README.md
 
-- enter folders and edit reports (student_no.md / student_no.tex) and other documents
+- enter folders and edit reports (student_no.md / student_no.tex) and other documents & files
 
 - git add --all 
 
