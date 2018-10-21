@@ -12,7 +12,9 @@
 
 - git clone https://github.com/$yourname$/ai-project-2018.git
 
-- edit reports (student_no.md / student_no.tex) and other documents
+- make folders structures following report naming convention
+
+- enter folders and edit reports (student_no.md / student_no.tex) and other documents
 
 - git add --all 
 
