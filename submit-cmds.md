@@ -6,9 +6,7 @@
 
 - download and install git tool on your local computer
 
-- git config --global user.name "$yourname$" git config --global user.email "$yourname@yourserver.com$" 
-
-- cd dir_where_you_prepare_report_dir 
+- git config --global user.name "$yourname$" & git config --global user.email "$yourname@yourserver.com$" 
 
 - git clone https://github.com/$yourname$/ai-project-2018.git
 
