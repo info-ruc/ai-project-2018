@@ -8,7 +8,7 @@
 
 - set user.name and user.email:
 
--- git config --global user.name "$yourname$" git config --global user.email "$yourname@yourserver.com$"
+''' git config --global user.name "$yourname$" git config --global user.email "$yourname@yourserver.com$" '''
 
 - cd dir_where_you_prepare_report_dir 
 
