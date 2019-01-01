@@ -8,8 +8,9 @@ An AI-Car based on deep learning and Arduino
 # Project 2 - Sensored Walker
 
 <p align="center">
-    <img src="Media\video\第二次展示视频定稿.gif" alter="展示视频gif">
+    <img src="Media\video\第二次展示视频定稿.gif" alter="第二次展示视频gif">
 </p>
+
 
 ## 1. Infrared Following Track
 
@@ -21,7 +22,7 @@ An AI-Car based on deep learning and Arduino
 ```C++
 void loop()
 {
-    keysacn(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始红外循迹。
+    keyscan(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始红外循迹。
     while (1)
     {   // 检测到黑线输出高，信号为HIGH，小车底部同侧LED灯亮；检测到白色区域输出低，信号为LOW，同侧灯灭
         SR = digitalRead(SensorRight);
@@ -52,7 +53,7 @@ void loop()
 ```C++
 void loop()
 {
-    keysacn(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始红外避障。
+    keyscan(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始红外避障。
     while (1)
     {
         //读取中间的红外避障传感器的状态。有信号为LOW，表示前方有障碍物；没有信号为HIGH，表示前方没有障碍物。
@@ -103,7 +104,7 @@ float Distance_test() // 测量小车前方最近障碍物的距离
 
 void loop()
 {
-    keysacn(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始超声波避障。
+    keyscan(); //调用按键扫描函数，当按键没被按下时处于忙等待状态；当按键被按下时，跳出死循环开始超声波避障。
     while (1)
     {
         Distance = Distance_test(); //调用测距函数测量前方最近障碍物的距离
@@ -263,7 +264,6 @@ void motorRun(int cmd)
 <p align="center">
     <img src="/Project2/Media/imgs/蓝牙遥控全功能按钮图.jpg" width="50%" alter="蓝牙遥控全功能按钮图">
 </p>
-
 </details>
 
 # Project 3 - DeepAI Walker
